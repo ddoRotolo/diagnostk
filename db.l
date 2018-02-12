@@ -1,0 +1,8 @@
+((id . 0) (title . "Lusty Lascivous Lecher Licks Lustrously") (year . "2017") (description . "Hey there everyone, this is the one where I") (filename . "fox.png"))
+((id . 1) (title . "Linux") (year . "2017") (description . "Yes, I have like, a great goddamn hoodie omg its got an alien in the middle. Jesus I love it. It's the best thing ever. So many stars and it's all so comfy please. My goodness.") (filename . "brashot.jpg"))
+((id . 2) (title . "Mully Sculder") (year . "2017") (description . "Hey Wow, its a big old skull! I love it omg. Its the best, gosh") (filename . "shortskirt.jpg"))
+((id . 3) (title . "Ruby, or Hands-on Action") (year . "2017") (description . "Oh yes, this is a thing that I like, like omg this is so hot and its just fingers that are full of jizz. I love it, lis, you're the best!") (filename . "meibae.jpg"))
+((id . 4) (title . "Brazil") (year . "2017") (description . "Ahhh, bureaucracy omg") (filename . "pitchfork.jpg"))
+((id . 5) (title . "Elixir") (year . "2017") (description . "Ahhh, I look super wide.^JOmg It's too good. I look too good.^JMy glasses are so fine and I'm all Pixcelly omg.^JYou're perfect lis, oh gosh.") (filename . "1133bcd7fae9c93240982d986e9caa94.jpg"))
+((id . 6) (title . "Hexagon Sun") (year . "2018") (description . "Hey I'm in a crystal thing^Jsurrounded by things I like,^Jits really great!") (filename . "80036134fb9989d1421770be4c79c220.jpg"))
+((id . 7) (title . "Treason  and Reason") (year . "2018") (description . "nth time is the charm") (filename . "__nagatoro_ijiranaide_nagatoro_san_drawn_by_viperxtr__sample-9212337f74cd282c77fbbc42b47200be.jpg"))
