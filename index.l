@@ -1,0 +1,35 @@
+(load "loadArt.l")
+
+(html 0 "Manage Artwork" *Css NIL
+   (<div> '(id . topBar) 
+      (<h1> '(id . header) "In Vitro Management System"))
+   (<div> '(id . artManagement)
+      (<div> '(id . currentArt)
+         (<h2> '() "Current Art")
+         (<ul> '(id . artList)
+            (for D *Drawings
+               (with D
+                  (<li> '()
+                     (<p> '()
+                        (ht:Prin (pack (: title)))))))))
+      (<div> '(id . addPiece)
+         (<h2> '() "Add New Piece")
+         (<post> NIL "add.l"
+            (<label> NIL "Title: ")
+            (<field> NIL '*Title)
+            (<br>)
+            (<label> NIL "Year: ")
+            (<field> NIL '*Year)
+            (<br>)
+            (<label> NIL "Description: ")
+            (<tag> "textarea"
+               '((rows . 4)
+                 (cols . 20)
+                 (wrap . "soft")
+                 (name . "*Description")
+                 (class . "area")))
+            (<br>)
+            (<label> NIL "File: ")
+            (<upload> NIL '*FileName)
+            (<br>)
+            (<submit> "Add Piece")))))
