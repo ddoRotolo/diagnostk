@@ -118,6 +118,7 @@ a:visited {
 #artManagement {
     margin: 8% auto;
     display: flex;
+    flex-flow: column;
     width: 80%;
 }
 
