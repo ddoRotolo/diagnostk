@@ -18,7 +18,6 @@
       '-resize '30% 
       '-gaussian '3x1
       (pack "static/img/" *FileName)
-      (pack "static/thumb/" *FileName))
-   (unless (fork) (script "generate.l")))
+      (pack "static/thumb/" *FileName)))
 
-(redirect "index.l")
+(redirect "transition.l")

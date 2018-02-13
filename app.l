@@ -12,9 +12,11 @@
 (setq *Css '("site/css/reset.css" "site/css/layout.css"))
 
 (de main () 
-   (ifn (fork)
-      (exec "darkhttpd" "site" "--port" 8081 )
-      (server 8080 "index.l"))
+   (unless (fork)
+      (exec "darkhttpd" "site" "--port" 8081))
+   (unless (fork)
+      (pipe (prinl "db.l") (exec "entr" "./generate.l")))
+   (server 8080 "index.l")
    (wait))
 
 (main)
