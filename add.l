@@ -5,6 +5,12 @@
 (load "loadArt.l")
 
 (when (and *Title *Year *Description *FileName (= *Password "dan<3lis<3"))
+   (call 'mv (tmp *FileName) (pack "static/img/" *FileName))
+   (call 'gm 'convert 
+      '-resize '30% 
+      '-gaussian '10x5
+      (pack "static/img/" *FileName)
+      (pack "static/thumb/" *FileName))
    (out "+db.l" 
       (println 
          (list 
@@ -12,12 +18,6 @@
             (cons 'title *Title) 
             (cons 'year *Year)
             (cons 'description *Description)
-            (cons 'filename *FileName))))
-   (call 'mv (tmp *FileName) (pack "static/img/" *FileName))
-   (call 'gm 'convert 
-      '-resize '30% 
-      '-gaussian '3x1
-      (pack "static/img/" *FileName)
-      (pack "static/thumb/" *FileName)))
+            (cons 'filename *FileName)))))
 
 (redirect "transition.l")
