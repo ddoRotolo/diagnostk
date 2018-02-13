@@ -14,3 +14,6 @@ static/img/:
 
 static/thumb/:
 	mkdir static/thumb
+
+clean:
+	rm -rf static/img/ static/thumb/ site/ db.l
