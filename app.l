@@ -6,7 +6,8 @@
     "*Title"
     "*Year"
     "*Description"
-    "*FileName")
+    "*FileName"
+    "*Password")
 
 (setq *Css '("site/css/reset.css" "site/css/layout.css"))
 

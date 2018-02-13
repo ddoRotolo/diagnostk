@@ -32,4 +32,7 @@
             (<label> NIL "File: ")
             (<upload> NIL '*FileName)
             (<br>)
+            (<label> NIL "Password: ")
+            (<passwd> 20 '*Password 20)
+            (<br>)
             (<submit> "Add Piece")))))

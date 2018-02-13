@@ -6,3 +6,5 @@
 ((id . 5) (title . "Elixir") (year . "2017") (description . "Ahhh, I look super wide.^JOmg It's too good. I look too good.^JMy glasses are so fine and I'm all Pixcelly omg.^JYou're perfect lis, oh gosh.") (filename . "1133bcd7fae9c93240982d986e9caa94.jpg"))
 ((id . 6) (title . "Hexagon Sun") (year . "2018") (description . "Hey I'm in a crystal thing^Jsurrounded by things I like,^Jits really great!") (filename . "80036134fb9989d1421770be4c79c220.jpg"))
 ((id . 7) (title . "Treason  and Reason") (year . "2018") (description . "nth time is the charm") (filename . "__nagatoro_ijiranaide_nagatoro_san_drawn_by_viperxtr__sample-9212337f74cd282c77fbbc42b47200be.jpg"))
+((id . 8) (title . "Stargazers in Bloom") (year . "2017") (description . "Pixels! My Room is a Beach!") (filename . "__kashima_and_ooi_kantai_collection_and_lawson_drawn_by_maku_raku__sample-b4586b5be8f35dd1fbdb822ff079705f.jpg"))
+((id . 9) (title . "Edge of  the Cliff and Where on Earth is it") (year . "2017") (description . "Hey There Everyone, this is Lis and Dan, and today we're gonna make a really cool artsy comic") (filename . "fatestay.jpg"))
