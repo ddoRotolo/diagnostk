@@ -4,7 +4,7 @@
 
 (load "loadArt.l")
 
-(when (and *Title *Year *Description *FileName (= *Password "dan<3lis<3"))
+(when (and *FileName (= *Password "dan<3lis<3"))
    (call 'mv (tmp *FileName) (pack "static/img/" *FileName))
    (call 'gm 'convert 
       '-resize '30% 
