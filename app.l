@@ -13,7 +13,7 @@
 
 (de main () 
    (unless (fork)
-      (exec "darkhttpd" "site" "--port" 8081))
+      (exec "darkhttpd" "site" "--port" 80 "--log" "server.log"))
    (server 8080 "index.l")
    (wait))
 
