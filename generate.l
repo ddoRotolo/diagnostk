@@ -54,7 +54,7 @@
                         (cons 'src (pack "/thumb/" (: filename)))
                         (cons 'alt (: title))))))))
       (<div> '(id . footer)
-         (<p> '() "Copyright Â Liseth Sanchez 2017-2018"))))
+         (<p> '() "Copyright © Liseth Sanchez 2017-2018"))))
 
 #create the pages
 
@@ -79,6 +79,6 @@
                         (cons 'href (pack "/index.html")))
                      "Return to Gallery")))
             (<div> '(id . footer)
-               (<p> '() "Copyright Â Liseth Sanchez 2017-2018"))))))
+               (<p> '() "Copyright © Liseth Sanchez 2017-2018"))))))
 
 (bye)
